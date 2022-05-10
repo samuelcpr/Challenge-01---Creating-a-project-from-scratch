@@ -15,7 +15,7 @@ import { getPrismicClient } from '../../services/prismic';
 
 import commonStyles from '../../styles/common.module.scss';
 import styles from './post.module.scss';
-import Comments from '../../components/Comments';
+import Comments from '../../components/comments';
 
 interface Post {
   first_publication_date: string | null;
