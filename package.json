@@ -1,6 +1,10 @@
 {
-  "name": "criando-um-projeto-do-zero",
+  "name": "samuelcpr-samuelcpr-Desafio-01---Criando-um-projeto-do-zero",
   "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/samuelcpr/samuelcpr-samuelcpr-Desafio-01---Criando-um-projeto-do-zero.git",
+  "author": "samuelcpr <samuelcpr464@gmail.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,0 +1,64 @@
+{
+  "Main" : {
+    "uid" : {
+      "config" : {
+        "label" : "Slug",
+        "placeholder" : "Post Uid"
+      },
+      "type" : "UID"
+    },
+    "title" : {
+      "config" : {
+        "label" : "Title",
+        "placeholder" : "Título do post..."
+      },
+      "type" : "Text"
+    },
+    "subtitle" : {
+      "config" : {
+        "label" : "Subtitle",
+        "placeholder" : "SubTítulo do post..."
+      },
+      "type" : "Text"
+    },
+    "author" : {
+      "config" : {
+        "label" : "Author",
+        "placeholder" : "Nome do Author"
+      },
+      "type" : "Text"
+    },
+    "banner" : {
+      "config" : {
+        "label" : "Banner",
+        "constraint" : { },
+        "thumbnails" : [ ]
+      },
+      "type" : "Image"
+    },
+    "content" : {
+      "config" : {
+        "label" : "Content",
+        "fields" : {
+          "heading" : {
+            "config" : {
+              "label" : "Heading",
+              "placeholder" : "Título da seção..."
+            },
+            "type" : "Text"
+          },
+          "body" : {
+            "config" : {
+              "label" : "Body",
+              "placeholder" : "Texto da seção",
+              "allowTargetBlank" : true,
+              "multi" : "paragraph,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+            },
+            "type" : "StructuredText"
+          }
+        }
+      },
+      "type" : "Group"
+    }
+  }
+}
